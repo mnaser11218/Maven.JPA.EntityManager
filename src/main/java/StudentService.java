@@ -35,14 +35,14 @@ public class StudentService {
         entityManager.close();
         return t;
     }
-//
-//    public void removeTeacher(int id){
-//        entityManager.getTransaction().begin();
-//        Teacher teacher = entityManager.find(Teacher.class, id);
-//        entityManager.remove(teacher);
-//        entityManager.getTransaction().commit();
-//        entityManager.close();
-//    }
+
+    public void removeStudent(int id){
+        entityManager.getTransaction().begin();
+        Student student = entityManager.find(Student.class, id);
+        entityManager.remove(student);
+        entityManager.getTransaction().commit();
+        entityManager.close();
+    }
 //
 //    public List<Teacher> findAll(int id){
 //        entityManager.getTransaction().begin();

@@ -12,12 +12,13 @@ public class Application {
 //         student.setName("ronald");
       //  System.out.println(studentService.createStudent(student));
 
-        Student student2 = new Student();
-        student2.setStudentId(50);
-        student2.setEmalAddress("jpa2@gmail.com");
-        student2.setTeacherId(2);
-        student2.setName("ronald updated");
-        System.out.println(studentService.updateStudent(student2));
+//        Student student2 = new Student();
+//        student2.setStudentId(50);
+//        student2.setEmalAddress("jpa2@gmail.com");
+//        student2.setTeacherId(2);
+//        student2.setName("ronald updated");
+//        System.out.println(studentService.updateStudent(student2));
+        studentService.removeStudent(43);
 //        teacher.setTeacherName("teacher from jpa 2 oop");
 //        teacher.setTeacherId(776);
 //        teacher.setTeacherEmalAddress("jpa@gmail.com");
