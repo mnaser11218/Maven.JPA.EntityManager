@@ -1,4 +1,4 @@
 
-@Repository
-public interface TeacherRepository extends JpaRepository<Teacher, Long> {
-}
+//@Repository
+//public interface TeacherRepository extends JpaRepository<Teacher, Long> {
+//}
