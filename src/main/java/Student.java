@@ -17,9 +17,7 @@ public class Student {
     public int studentId;
     public int teacherId;
     public String EmalAddress;
-
-    public Student() {
-    }
+    public String name;
 
     @Override
     public String toString() {
@@ -27,7 +25,19 @@ public class Student {
                 "studentId=" + studentId +
                 ", teacherId=" + teacherId +
                 ", EmalAddress='" + EmalAddress + '\'' +
+                ", name='" + name + '\'' +
                 '}';
+    }
+
+    public Student() {
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getStudentId() {

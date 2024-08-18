@@ -3,7 +3,7 @@ import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 
 import java.util.List;
-public class Service {
+public class TeacherService {
     EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("PERSISTENCE");
     EntityManager entityManager = entityManagerFactory.createEntityManager();
     public Teacher getTeacherById(int id){
@@ -40,9 +40,10 @@ public class Service {
 
     public List<Teacher> findAll(int id){
         entityManager.getTransaction().begin();
-        Iterable<Teacher> teacher = entityManager.findAll();
+        //Iterable<Teacher> teacher = entityManager.findAll();
        // entityManager.remove(teacher);
         //entityManager.getTransaction().commit();
         entityManager.close();
+        return null;
     }
 }

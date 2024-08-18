@@ -1,4 +1,4 @@
-# JPA - CRUD - Entity Service Lab
+# JPA - CRUD - Entity TeacherService Lab
 
 Requirements
 
@@ -55,7 +55,7 @@ Create __persistence.xml__ file and save it to _src -> main -> resources -> META
 
 Create services that are composed of an _EntityManager_ and has an interface for performing CRUD operations for managing _Entities_ with you database.
 
-Service(s) should be able to perform at minimum the following:
+TeacherService(s) should be able to perform at minimum the following:
 
 * findById()
 * findAll()
