@@ -1,4 +1,5 @@
+//import org.springframework.data.jpa.repository.JpaRepository;
 
-//@Repository
-//public interface TeacherRepository extends JpaRepository<Teacher, Long> {
+//public interface UserRepository extends JpaRepository<Teacher, Integer> {
+//    // You can add custom queries here if needed
 //}
